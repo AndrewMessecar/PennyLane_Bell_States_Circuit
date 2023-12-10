@@ -1,3 +1,5 @@
+# Andrew S. Messecar, 2023
+
 import pennylane as qml                     # Import PennyLane under the alias "qml"
 # from pennylane import numpy as pnp        # Import NumPy through PennyLane with the alias "pnp"
 
