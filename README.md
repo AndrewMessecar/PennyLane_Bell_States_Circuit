@@ -6,7 +6,7 @@ The program serves as a "Hello World"-esque quantum computing 101 exercise in th
 
 A quantum node or "QNode" is then created by decorating using the initialized 2-qubit circuit.
 
-Following this, a user-defined function is declared which applies a Hadamard gate to the first of the two qubits in the circuit; this places the first qubit in a state of superposition. The function proceeds to entangle the two qubits together via a CNOT gate before returning the probability values of both qubits occupying each of the computational basis states to the user in lexicographic order.
+Following this, a user-defined function is declared which applies a Hadamard gate to the first of the two qubits in the circuit; this places the first qubit in a state of superposition. The function proceeds to entangle the two qubits together via a Controlled NOT (CNOT) gate before returning the probability values of both qubits occupying each of the computational basis states to the user in lexicographic order.
 
 The program concludes by calling this user-defined function, printing the returned probability values to the user, and then printing a diagram of the simulated circuit to the user.
 
